@@ -1,0 +1,5 @@
+{
+  "name": "prism-deps",
+  "version": "0.1.0",
+  "dependencies": ["prism-amber", "prism-indigo"]
+}

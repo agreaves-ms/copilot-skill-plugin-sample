@@ -1,0 +1,15 @@
+{
+  "name": "prism-lab",
+  "owner": {"name": "Sample marketplace"},
+  "plugins": [
+    {"name": "prism-all", "source": "./", "description": "Root manifest selecting both topics"},
+    {"name": "prism-amber", "source": "./topics/amber", "description": "Amber only"},
+    {"name": "prism-indigo", "source": "./topics/indigo", "description": "Indigo only"},
+    {"name": "prism-deps", "source": "./controls/deps", "description": "Dependency-only aggregate", "dependencies": ["prism-amber", "prism-indigo"]},
+    {"name": "prism-inline-amber", "source": "./topics", "strict": false, "skills": ["./amber/skills"], "agents": ["./amber/agents"]},
+    {"name": "prism-inline-indigo", "source": "./topics", "strict": false, "skills": ["./indigo/skills"], "agents": ["./indigo/agents"]},
+    {"name": "prism-inline-strict", "source": "./topics", "strict": true, "skills": ["./amber/skills"], "agents": ["./amber/agents"]},
+    {"name": "prism-overlay", "source": "./", "strict": false, "skills": ["./topics/amber/skills"], "agents": ["./topics/amber/agents"]},
+    {"name": "prism-overlay-strict", "source": "./", "strict": true, "skills": ["./topics/amber/skills"], "agents": ["./topics/amber/agents"]}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "prism-amber",
+  "version": "0.1.0",
+  "skills": ["./skills"],
+  "agents": ["./agents"],
+  "instructions": ["./rules/prism-amber.instructions.md"],
+  "rules": ["./rules"]
+}

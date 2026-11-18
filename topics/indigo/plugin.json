@@ -1,0 +1,6 @@
+{
+  "name": "prism-indigo",
+  "version": "0.1.0",
+  "skills": ["./skills/prism-indigo-card"],
+  "agents": ["./agents/prism-indigo-reader.agent.md"]
+}

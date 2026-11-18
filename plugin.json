@@ -1,0 +1,9 @@
+{
+  "name": "prism-all",
+  "version": "0.1.0",
+  "description": "Both topics from their original directories",
+  "skills": ["./topics/amber/skills", "./topics/indigo/skills/prism-indigo-card"],
+  "agents": ["./topics/amber/agents", "./topics/indigo/agents/prism-indigo-reader.agent.md"],
+  "instructions": ["./topics/amber/rules/prism-amber.instructions.md"],
+  "rules": ["./topics/amber/rules"]
+}
