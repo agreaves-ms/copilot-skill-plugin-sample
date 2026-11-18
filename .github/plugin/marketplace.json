@@ -10,6 +10,8 @@
     {"name": "prism-inline-indigo", "source": "./topics", "strict": false, "skills": ["./indigo/skills"], "agents": ["./indigo/agents"]},
     {"name": "prism-inline-strict", "source": "./topics", "strict": true, "skills": ["./amber/skills"], "agents": ["./amber/agents"]},
     {"name": "prism-overlay", "source": "./", "strict": false, "skills": ["./topics/amber/skills"], "agents": ["./topics/amber/agents"]},
-    {"name": "prism-overlay-strict", "source": "./", "strict": true, "skills": ["./topics/amber/skills"], "agents": ["./topics/amber/agents"]}
+    {"name": "prism-overlay-strict", "source": "./", "strict": true, "skills": ["./topics/amber/skills"], "agents": ["./topics/amber/agents"]},
+    {"name": "prism-inline-leaf", "source": "./topics", "strict": false, "skills": ["./indigo/skills/prism-indigo-card"], "agents": ["./indigo/agents/prism-indigo-reader.agent.md"]},
+    {"name": "prism-standard", "source": "./controls/standard"}
   ]
 }
